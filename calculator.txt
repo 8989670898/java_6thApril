@@ -1,0 +1,74 @@
+class number
+{
+	int x,y;
+	void display()
+	{
+		System.out.println("The value of x=" +x);
+		System.out.println("The value of y=" +y);
+	}
+}
+	class addition extends number
+	{
+		int sum;
+		void add()
+		{
+			sum=x+y;
+			System.out.println("The sum of x and y is " +sum);
+		}
+	}
+	class subtraction extends number
+	{
+		int difference;
+		void subtract()
+		{
+			difference=x-y;
+			System.out.println("The difference between x and y is " +difference);
+		
+		}
+	}
+	class multiplication extends number
+	{
+		int product;
+		void multiply()
+		{
+			product=x*y;
+			System.out.println("The product of x and y is " +product);
+		}
+	}
+	class division extends number
+	{
+		int quotient;
+		void divide()
+		{
+			quotient=x/y;
+			System.out.println("The value of x divided by y is " +quotient);
+		}
+	}
+
+public class calculator
+{
+	public static void main(String[] args)
+	{
+	 number ob1=new number();
+	 ob1.x=20;
+	 ob1.y=10;
+	 System.out.println("The numbers used in the calculator are");
+	 ob1.display();
+	 addition ob2=new addition();
+	 ob2.x=20;
+	 ob2.y=10;
+	 ob2.add();
+	 subtraction ob3=new subtraction();
+	 ob3.x=20;
+	 ob3.y=10;
+	 ob3.subtract();
+	 multiplication ob4=new multiplication();
+	 ob4.x=20;
+	 ob4.y=10;
+	 ob4.multiply();
+	 division ob5=new division();
+	 ob5.x=20;
+	 ob5.y=10;
+	 ob5.divide();
+	}
+}

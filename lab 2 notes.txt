@@ -1,0 +1,11 @@
+field - variables
+(methods)
+
+Parent/base /super class
+child/subclass
+
+Q1)Using inheritance come animals then pet then their attributes?
+Q2)Programming of inhritance?
+Q3)Using inheritance college security office = lost and found place =key values = university?
+Q4)Using inheritance make calculator?
+Q5)How to random access the question?

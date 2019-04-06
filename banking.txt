@@ -1,0 +1,6 @@
+design a program for banking system in which three entities exists such as employee, main server, account holder
+>>    Is doing for account management
+      1)Deposit, withdraw, credit, balance
+
+     Case1)If account is nil, client cannot access the account details?
+           a)Withdraw, fund transfer,  will be restricted.
